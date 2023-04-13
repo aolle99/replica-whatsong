@@ -2,6 +2,36 @@ button {
   background: #FFF;
   border: none;
   cursor: pointer;
+  min-height: 35px;
+  min-width: 35px;
+}
+
+button:hover {
+  background: #EDF2F7;
+}
+
+.button-border {
+  border: 1px solid #000;
+}
+
+.active {
+  background: #FF0DFF;
+  color: #FFF;
+  border: 2px solid #000;
+}
+
+.active:hover {
+  background: #EE05EE;
+}
+
+.button-warning {
+  background: #FFF55C;
+  opacity: 75%;
+}
+
+.button-warning:hover {
+  background: #FFF55C;
+  opacity: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

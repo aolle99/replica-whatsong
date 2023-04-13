@@ -1,6 +1,33 @@
 @use 'theme'
 
+//BUTTON STYLES
 button
     background: theme.$color-white
     border: none
     cursor: pointer
+    min-height: 35px
+    min-width: 35px
+
+button:hover
+    background: theme.$color-grey-hover
+
+.button-border
+    border: 1px solid  theme.$color-black
+
+.active
+    background: theme.$primary-color
+    color: theme.$color-white
+    border: 2px solid theme.$color-black
+.active:hover
+    background: theme.$primary-color-active
+
+.button-warning
+    background: theme.$color-warning
+    opacity: 75%
+
+.button-warning:hover
+    background: theme.$color-warning
+    opacity: 100%
+
+
+
