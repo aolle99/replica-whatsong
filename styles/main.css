@@ -3,12 +3,12 @@ h1 {
   line-height: 58px;
   font-family: CraftworkGrotesk, sans-serif;
   color: #FFF;
-  background-color: #000;
   text-align: center;
   font-weight: 700;
 }
 
 h2:first-child {
+  text-transform: uppercase;
   line-height: 1.33;
   font-weight: 700;
   letter-spacing: 9px;
@@ -16,6 +16,7 @@ h2:first-child {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  color: #FF0DFF;
   font-family: Euclid Circular A, sans-serif;
 }
 
@@ -41,7 +42,6 @@ p {
   margin-bottom: 0px;
   margin-inline-start: 0px;
   color: #FFF;
-  background-color: #000;
   text-align: center;
   line-height: 1.25rem;
   font-weight: 500;
@@ -56,11 +56,6 @@ section:first-child {
   width: 100%;
   background-position: center top;
   height: 350px;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  top: 0px;
 }
 
 button {
@@ -73,10 +68,6 @@ button {
 
 button:hover {
   background: #EDF2F7;
-}
-
-.button-border {
-  border: 1px solid #000;
 }
 
 .active {

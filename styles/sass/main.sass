@@ -4,11 +4,12 @@ h1
    line-height: 58px
    font-family: theme.$heading-family
    color: theme.$color-white
-   background-color: theme.$color-black
    text-align: center
    font-weight: theme.$font-weigt-m
+   
 
 h2:first-child
+    text-transform: uppercase
     line-height: 1.33
     font-weight: theme.$font-weigt-m
     letter-spacing: 9px
@@ -16,6 +17,7 @@ h2:first-child
     text-align: center
     margin-top: 2rem
     margin-bottom: 3rem
+    color: theme.$primary-color
     font-family: theme.$body-family
 
 span
@@ -39,7 +41,6 @@ p
     margin-bottom: 0px
     margin-inline-start: 0px
     color: theme.$color-white
-    background-color: theme.$color-black
     text-align: center
     line-height: 1.25rem
     font-weight: 500
@@ -53,11 +54,7 @@ section:first-child
     width: 100%
     background-position: center top
     height: 350px
-    position: absolute
-    left: 0px
-    right: 0px
-    bottom: 0px
-    top: 0px
+
 
 //BUTTON STYLES
 button
@@ -71,7 +68,7 @@ button:hover
     background: theme.$color-grey-hover
 
 .button-border
-    border: 1px solid  theme.$color-black
+
 
 .active
     background: theme.$primary-color
