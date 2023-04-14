@@ -1,4 +1,63 @@
 @use 'theme'
+h1
+   font-size: 50px
+   line-height: 58px
+   font-family: theme.$heading-family
+   color: theme.$color-white
+   background-color: theme.$color-black
+   text-align: center
+   font-weight: theme.$font-weigt-m
+
+h2:first-child
+    line-height: 1.33
+    font-weight: theme.$font-weigt-m
+    letter-spacing: 9px
+    font-size: theme.$font-size-sm
+    text-align: center
+    margin-top: 2rem
+    margin-bottom: 3rem
+    font-family: theme.$body-family
+
+span
+    padding-inline-end: 0.25rem
+    text-transform: uppercase
+    border-radius: 0.125rem
+    font-weight: theme.$font-weigt-m
+    font-size: theme.$font-size-sm
+    font-family: theme.$heading-family
+    letter-spacing: 3px
+    color: theme.$color-white
+    background: clear
+    border: 1px solid white
+    background-color: theme.$color-black
+    padding-inline-start: 0.25rem
+    padding-inline-end: 0.25rem
+
+p
+    margin-top: 0.5rem
+    margin-inline-end: 0px
+    margin-bottom: 0px
+    margin-inline-start: 0px
+    color: theme.$color-white
+    background-color: theme.$color-black
+    text-align: center
+    line-height: 1.25rem
+    font-weight: 500
+    font-size: theme.$font-size-sm
+    max-width: 14rem
+    font-family: theme.$body-family
+
+section:first-child
+    object-fit: contain
+    background-image:  radial-gradient(circle at center, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url("https://www.what-song.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Feuphoria-2.jpeg&w=2048&q=75")
+    width: 100%
+    background-position: center top
+    height: 350px
+    position: absolute
+    left: 0px
+    right: 0px
+    bottom: 0px
+    top: 0px
 
 button
     background: theme.$color-white
