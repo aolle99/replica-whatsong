@@ -1,3 +1,68 @@
+h1 {
+  font-size: 50px;
+  line-height: 58px;
+  font-family: CraftworkGrotesk, sans-serif;
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
+  font-weight: 700;
+}
+
+h2:first-child {
+  line-height: 1.33;
+  font-weight: 700;
+  letter-spacing: 9px;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-family: Euclid Circular A, sans-serif;
+}
+
+span {
+  padding-inline-end: 0.25rem;
+  text-transform: uppercase;
+  border-radius: 0.125rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  font-family: CraftworkGrotesk, sans-serif;
+  letter-spacing: 3px;
+  color: #FFF;
+  background: clear;
+  border: 1px solid white;
+  background-color: #000;
+  padding-inline-start: 0.25rem;
+  padding-inline-end: 0.25rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  margin-inline-start: 0px;
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  max-width: 14rem;
+  font-family: Euclid Circular A, sans-serif;
+}
+
+section:first-child {
+  object-fit: contain;
+  background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url("https://www.what-song.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Feuphoria-2.jpeg&w=2048&q=75");
+  width: 100%;
+  background-position: center top;
+  height: 350px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+
 button {
   background: #FFF;
   border: none;
