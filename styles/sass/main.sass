@@ -6,7 +6,6 @@ h1
    color: theme.$color-white
    text-align: center
    font-weight: theme.$font-weigt-m
-   
 
 h2:first-child
     text-transform: uppercase
@@ -20,6 +19,20 @@ h2:first-child
     color: theme.$primary-color
     font-family: theme.$body-family
 
+.title-content
+    position:relative
+    grid-template-columns: repeat(1, 1fr)
+    margin:0px
+    width:100vw
+    height:100vh
+    overflow:auto
+    width: 30%
+    height: 100%
+    margin: 0 auto
+    padding: 10px
+
+
+
 span
     padding-inline-end: 0.25rem
     text-transform: uppercase
@@ -31,14 +44,16 @@ span
     color: theme.$color-white
     background: clear
     border: 1px solid white
-    background-color: theme.$color-black
+    display:block
     padding-inline-start: 0.25rem
     padding-inline-end: 0.25rem
+    display: block
+    text-align: center
 
 p
-    margin-top: 0.5rem
+    margin-top: 0.4rem
     margin-inline-end: 0px
-    margin-bottom: 0px
+    margin-bottom: 0.6rem
     margin-inline-start: 0px
     color: theme.$color-white
     text-align: center
@@ -49,7 +64,6 @@ p
     font-family: theme.$body-family
 
 section:first-child
-    overflow: auto
     background-size: cover
     background-repeat:   no-repeat
     background-position: center center
@@ -58,7 +72,13 @@ section:first-child
     width: 100%
     background-position: center top
     height: 350px
-
+    display:block
+    margin:0px
+    width:90vw
+    height:autovh
+    display: inline-block
+    height: 100%
+    max-width: 100%
 
 //BUTTON STYLES
 button

@@ -20,6 +20,16 @@ h2:first-child {
   font-family: Euclid Circular A, sans-serif;
 }
 
+.title-content {
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
 span {
   padding-inline-end: 0.25rem;
   text-transform: uppercase;
@@ -31,15 +41,15 @@ span {
   color: #FFF;
   background: clear;
   border: 1px solid white;
-  background-color: #000;
   padding-inline-start: 0.25rem;
   padding-inline-end: 0.25rem;
+  display: block;
+  text-align: center;
 }
-
 p {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   margin-inline-end: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0.6rem;
   margin-inline-start: 0px;
   color: #FFF;
   text-align: center;
@@ -51,7 +61,6 @@ p {
 }
 
 section:first-child {
-  overflow: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -60,8 +69,12 @@ section:first-child {
   width: 100%;
   background-position: center top;
   height: 350px;
+  margin: 0px;
+  width: 90vw;
+  display: inline-block;
+  height: 100%;
+  max-width: 100%;
 }
-
 button {
   background: #FFF;
   border: none;
