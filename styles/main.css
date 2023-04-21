@@ -56,8 +56,9 @@ p {
   line-height: 1.25rem;
   font-weight: 500;
   font-size: 0.875rem;
-  max-width: 14rem;
   font-family: Euclid Circular A, sans-serif;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
