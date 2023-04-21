@@ -60,6 +60,18 @@ p {
   font-family: Euclid Circular A, sans-serif;
 }
 
+ul {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 100%;
+  display: inline-flex;
+  margin: 0px;
+  width: 100vw;
+  border-radius: 15px;
+}
+
 section:first-child {
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,7 +82,7 @@ section:first-child {
   background-position: center top;
   height: 350px;
   margin: 0px;
-  width: 90vw;
+  width: 100vw;
   display: inline-block;
   height: 100%;
   max-width: 100%;
